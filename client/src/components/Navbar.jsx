@@ -9,12 +9,13 @@ const Navbar = () => {
       <nav className="NavbarItems">
         <h1 className="navbar-logo">ExploreX</h1>
         <ul className="nav-menu">
-            {}
-          <li>
-            <Link to={"#"}>
-              <i className="fa-solid fa-house-user"></i> Home
-            </Link>
-          </li>
+          {MenuItems.map((items, index) => (
+            <li key={items.id}>
+              <Link to={items.url}>
+                <i className={items.icon}></i> {items.title}
+              </Link>
+            </li>
+          ))}
         </ul>
       </nav>
     </>
