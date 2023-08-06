@@ -1,11 +1,6 @@
-import React from 'react'
-
-const MenuItems = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
-
-export default MenuItems
+export const MenuItems = [
+  {
+    title: "Home",
+    url: "/",
+  },
+];
