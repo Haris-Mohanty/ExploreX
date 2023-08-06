@@ -9,7 +9,9 @@ const Navbar = () => {
         <h1 className="navbar-logo">ExploreX</h1>
         <ul className="nav-menu">
           <li>
-            <Link><i className="fa-solid fa-house-user"></i> Home</Link>
+            <Link to={"#"}>
+              <i className="fa-solid fa-house-user"></i> Home
+            </Link>
           </li>
         </ul>
       </nav>
