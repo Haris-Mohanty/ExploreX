@@ -39,10 +39,21 @@
   border-radius: 4px;
   transition: all 0.2s ease-in-out;
 }
-.nav-links-mobile{
+.nav-links-mobile {
   display: none;
 }
-button{
+button {
   padding: 0.5rem 1rem;
   white-space: nowrap;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: #151516;
+  color: #fff;
+  transition: 0.2s ease-in-out;
 }
