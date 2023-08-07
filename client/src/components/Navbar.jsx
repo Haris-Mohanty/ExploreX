@@ -8,6 +8,9 @@ const Navbar = () => {
     <>
       <nav className="NavbarItems">
         <h1 className="navbar-logo">ExploreX</h1>
+
+<div className="menu-icons"><i className="fas fa-bar"></i></div>
+
         <ul className="nav-menu">
           {MenuItems.map((items, index) => (
             <li key={items.id}>
