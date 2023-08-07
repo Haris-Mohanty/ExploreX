@@ -21,7 +21,7 @@
   list-style: none;
   align-items: center;
 }
-.nav-links{
+.nav-links {
   text-decoration: none;
   color: #222;
   font-size: 1.1em;
@@ -30,12 +30,19 @@
   white-space: nowrap;
 }
 
-.nav-links i{
+.nav-links i {
   padding-right: 10px;
 }
-.nav-links:hover{
+.nav-links:hover {
   background-color: #01959a;
   color: #fff;
   border-radius: 4px;
   transition: all 0.2s ease-in-out;
+}
+.nav-links-mobile{
+  display: none;
+}
+button{
+  padding: 0.5rem 1rem;
+  white-space: nowrap;
 }
