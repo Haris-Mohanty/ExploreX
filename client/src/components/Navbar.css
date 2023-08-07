@@ -9,11 +9,33 @@
   border-radius: 13px;
 }
 
-.navbar-logo{
+.navbar-logo {
   color: #222;
   font-size: 2rem;
   cursor: pointer;
 }
-.nav-menu{
-  
+.nav-menu {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  grid-gap: 10px;
+  list-style: none;
+  align-items: center;
+}
+.nav-links{
+  text-decoration: none;
+  color: #222;
+  font-size: 1.1em;
+  font-weight: 600;
+  padding: 0.7rem 1rem;
+  white-space: nowrap;
+}
+
+.nav-links i{
+  padding-right: 10px;
+}
+.nav-links:hover{
+  background-color: #01959a;
+  color: #fff;
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out;
 }

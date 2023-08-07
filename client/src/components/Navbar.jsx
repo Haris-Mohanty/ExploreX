@@ -11,7 +11,7 @@ const Navbar = () => {
         <ul className="nav-menu">
           {MenuItems.map((items, index) => (
             <li key={items.id}>
-              <Link to={items.url}>
+              <Link to={items.url} className={items.className}>
                 <i className={items.icon}></i> {items.title}
               </Link>
             </li>
