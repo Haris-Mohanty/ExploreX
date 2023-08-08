@@ -22,6 +22,7 @@ const Navbar = () => {
             <i className="fas fa-bars" />
           )}
         </div>
+         
 
         <ul className="nav-menu">
           {MenuItems.map((items, index) => (
