@@ -24,7 +24,7 @@ const Navbar = () => {
         </div>
          
 
-        <ul className={isIconClicked ? "nav-menu.active" :"nav-menu"}>
+        <ul className={isIconClicked ? "nav-menu active" :"nav-menu"}>
           {MenuItems.map((items, index) => (
             <li key={items.id}>
               <Link to={items.url} className={items.className}>
