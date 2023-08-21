@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const Home = () => {
   return (
-    <div>
-      
-    </div>
-  )
-}
+    <>
+      <h1>This is Home</h1>
+    </>
+  );
+};
 
-export default Home
+export default Home;
