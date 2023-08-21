@@ -14,3 +14,10 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.hero-text h2 {
+  font-size: 3rem;
+  font-weight: 800;
+  background: #fff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
