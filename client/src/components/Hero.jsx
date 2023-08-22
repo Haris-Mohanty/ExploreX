@@ -9,7 +9,9 @@ const Hero = (props) => {
         <div className="hero-text">
           <h2>{props.title}</h2>
           <p>{props.text}</p>
-          <a href={props.url} className={props.btnClass}>{props.btnText}</a>
+          <a href={props.url} className={props.btnClass}>
+            {props.btnText}
+          </a>
         </div>
       </div>
     </>

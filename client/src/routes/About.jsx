@@ -1,11 +1,14 @@
-import React from 'react'
+import React from "react";
+import Navbar from "../components/Navbar";
+import Hero from "../components/Hero";
 
 const About = () => {
   return (
-    <div>
-      <h1>This is About</h1>
-    </div>
-  )
-}
+    <>
+      <Navbar />
+      <Hero />
+    </>
+  );
+};
 
-export default About
+export default About;
