@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
-import contactImg from "../Assets/night.jpg";
+import serviceImg from "../Assets/.jpg";
 
 const Service = () => {
   return (
@@ -9,8 +9,8 @@ const Service = () => {
       <Navbar />
       <Hero
         cName="hero-mid"
-        heroImg={contactImg}
-        title="Contact"
+        heroImg={serviceImg}
+        title="Service"
         btnClass="hide"
       />
     </>
