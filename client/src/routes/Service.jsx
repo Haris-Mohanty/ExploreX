@@ -1,9 +1,18 @@
 import React from "react";
+import Navbar from "../components/Navbar";
+import Hero from "../components/Hero";
+import contactImg from "../Assets/night.jpg";
 
 const Service = () => {
   return (
     <>
-      <h1>This is Service</h1>
+      <Navbar />
+      <Hero
+        cName="hero-mid"
+        heroImg={contactImg}
+        title="Contact"
+        btnClass="hide"
+      />
     </>
   );
 };
