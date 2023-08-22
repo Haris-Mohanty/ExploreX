@@ -1,11 +1,19 @@
-import React from 'react'
+import React from "react";
+import Navbar from "../components/Navbar";
+import Hero from "../components/Hero";
 
 const Contact = () => {
   return (
-    <div>
-      <h1>This is Contact</h1>
-    </div>
-  )
-}
+    <>
+      <Navbar />
+      <Hero
+      cName="hero-mid"
+      heroImg={}
+      title="About"
+      btnClass="hide"
+      />
+    </>
+  );
+};
 
-export default Contact
+export default Contact;
