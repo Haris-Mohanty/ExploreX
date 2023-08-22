@@ -10,7 +10,7 @@ img {
 }
 .hero-text {
   position: absolute;
-  top: 55%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -20,4 +20,25 @@ img {
   background: #fff;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+.hero-text p {
+  font-size: 1.2rem;
+  color: #fff;
+  padding: 0.5rem 0 2rem 0;
+  margin-left: 2.5rem;
+}
+.hero-text .show {
+  text-decoration: none;
+  background-color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #222;
+  margin-left: 14rem;
+}
+
+@media screen {
+  
 }
