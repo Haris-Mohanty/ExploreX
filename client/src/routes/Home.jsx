@@ -10,7 +10,7 @@ const Home = () => {
       <Hero
         cName="hero"
         heroImg={homeImg}
-        title="Your Journey, Our Passion"
+        title="Your Journey, Our Passion!"
         text="Discover More, Explore More, Be More with Explorex!"
         btnText="Set Plan"
         btnClass="show"
