@@ -4,8 +4,8 @@ import "./Destination.css";
 const Destination = () => {
   return (
     <>
-      <div className="destination">
-        <h1>Popular Destination</h1>
+      <div className="destination d-flex justify-conetnt-center align-items-center flex-column">
+        <h2 className="fw-bold">Popular Destination</h2>
         <p>Where adventure awaits at every turn!</p>
       </div>
     </>
