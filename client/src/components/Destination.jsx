@@ -6,13 +6,13 @@ import parisPic2 from "../Assets/paris-2.jpg"
 const Destination = () => {
   return (
     <>
-      <div className="destination d-flex justify-conetnt-center align-items-center flex-column mt-4">
-        <h2 className="fw-bold font-sofias">Popular Destination</h2>
-        <p className="font-lato">Where adventure awaits at every turn!</p>
+      <div className="destination d-flex justify-conetnt-center align-items-center flex-column">
+        <h2 className="fw-bold">Popular Destination</h2>
+        <p className="font-sofias">Where adventure awaits at every turn!</p>
         <div className="first-desc">
           <div className="des-text">
             <h3>Paris, France: The City of Love</h3>            
-            <p>
+            <p className="font-lato">
               Experience the timeless allure of Paris, France. Walk along the
               romantic Seine River, under the iconic Eiffel Tower's shadow.
               Immerse yourself in world-renowned art at the Louvre Museum and be
