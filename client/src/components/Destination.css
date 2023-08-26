@@ -1,3 +1,15 @@
-.destination{
-    margin: 4rem 6rem;
+.destination {
+  margin: 4rem 6rem;
+}
+.tagline{
+    font-size: 1.3rem;
+}
+
+@media screen and (max-width: 555px) {
+  .destination {
+    margin: 2rem 2.5rem;
+  }
+  .tagline{
+    font-size: 1.1rem;
+}
 }

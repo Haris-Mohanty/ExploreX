@@ -7,8 +7,8 @@ const Destination = () => {
   return (
     <>
       <div className="destination d-flex justify-conetnt-center align-items-center flex-column">
-        <h2 className="fw-bold">Popular Destination</h2>
-        <p className="font-sofias">Where adventure awaits at every turn!</p>
+        <h1 className="fw-bold">Popular Destination</h1>
+        <p className="font-sofias tagline">Where adventure awaits at every turn!</p>
         <div className="first-desc">
           <div className="des-text">
             <h3>Paris, France: The City of Love</h3>            
@@ -27,8 +27,8 @@ const Destination = () => {
             </p>
           </div>
           <div className="image">
-            <img src={parisPic1} alt="Paris Pic" />
-            <img src={parisPic2} alt="Paris Pic" />
+            <img src={parisPic1} alt="Paris Pic" className="w-50" />
+            <img src={parisPic2} alt="Paris Pic" className="w-50"/>
           </div>
         </div>
       </div>
