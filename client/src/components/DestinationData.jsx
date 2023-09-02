@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import "./Destination.css";
-import parisPic1 from "../Assets/paris1.jpg";
-import parisPic2 from "../Assets/paris-2.jpg";
 
 class DestinationData extends Component {
   constructor(props) {
@@ -17,8 +15,8 @@ class DestinationData extends Component {
           <p className="font-lato ms-3">{this.props.text}</p>
         </div>
         <div className="image">
-          <img src={parisPic1} alt="Paris Pic" />
-          <img src={parisPic2} alt="Paris Pic" />
+          <img src={this.props.img1} alt="Img 1" />
+          <img src={this.props.img2} alt="Img 2" />
         </div>
       </div>
     );

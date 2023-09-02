@@ -25,6 +25,8 @@ const Destination = () => {
             of Love as you explore its cobblestone lanes, witness unforgettable
             sunsets over the cityscape, and create cherished memories that will
             linger forever."
+          img1={parisPic1}
+          img2={parisPic2}
         />
       </div>
     </>
