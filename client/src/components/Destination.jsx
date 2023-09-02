@@ -13,8 +13,8 @@ const Destination = () => {
         </p>
         <div className="first-desc">
           <div className="des-text">
-            <h3>Paris, France: The City of Love</h3>
-            <p className="font-lato">
+            <h3 className="mt-3">Paris, France: The City of Love</h3>
+            <p className="font-lato ms-3">
               Experience the timeless allure of Paris, France. Walk along the
               romantic Seine River, under the iconic Eiffel Tower's shadow.
               Immerse yourself in world-renowned art at the Louvre Museum and be

@@ -42,13 +42,26 @@
   .destination {
     margin: 2rem 2rem;
   }
-  .first-desc {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 4.5rem;
-  }
   .tagline {
     font-size: 1.1rem;
+  }
+  .first-desc {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2.5rem;
+  }
+  .des-text {
+    width: 95%;
+    text-align: start;
+    font-size: 0.9rem;
+  }
+  .image {
+    width: 100%;
+    margin: 1.2rem 0;
+  }
+  .image img{
+    height: 250px;
   }
 }
