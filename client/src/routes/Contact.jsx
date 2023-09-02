@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
-import contactImg from "../Assets/2.jpg";
+import contactImg from "../Assets/2.png";
 
 const Contact = () => {
   return (

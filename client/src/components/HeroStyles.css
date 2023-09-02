@@ -32,7 +32,14 @@ img {
   font-weight: 800;
   background: #fff;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; 
+  /** Add image in text background **/
+  /* background-image: url("https://www.color-meanings.com/wp-content/uploads/Black-and-white-paint-swirl-1024x683.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent; */
 }
 .hero-text p {
   font-size: 1.2rem;
@@ -56,7 +63,7 @@ img {
 @media screen and (max-width: 555px) {
   .hero-text h2 {
     padding: 10px 20px;
-    font-size: 1.9rem;
+    font-size: 2.7rem;
   }
   .hero-text p {
     font-size: 0.7rem;
