@@ -1,17 +1,19 @@
 import React from "react";
 import "./Destination.css";
-import parisPic1 from "../Assets/paris1.jpg"
-import parisPic2 from "../Assets/paris-2.jpg"
+import parisPic1 from "../Assets/paris1.jpg";
+import parisPic2 from "../Assets/paris-2.jpg";
 
 const Destination = () => {
   return (
     <>
       <div className="destination d-flex justify-conetnt-center align-items-center flex-column">
         <h1 className="fw-bold">Popular Destination</h1>
-        <p className="font-sofias tagline">Where adventure awaits at every turn!</p>
+        <p className="font-sofias tagline">
+          Where adventure awaits at every turn!
+        </p>
         <div className="first-desc">
           <div className="des-text">
-            <h3>Paris, France: The City of Love</h3>            
+            <h3>Paris, France: The City of Love</h3>
             <p className="font-lato">
               Experience the timeless allure of Paris, France. Walk along the
               romantic Seine River, under the iconic Eiffel Tower's shadow.
@@ -27,8 +29,8 @@ const Destination = () => {
             </p>
           </div>
           <div className="image">
-            <img src={parisPic1} alt="Paris Pic" className="w-50" />
-            <img src={parisPic2} alt="Paris Pic" className="w-50"/>
+            <img src={parisPic1} alt="Paris Pic" />
+            <img src={parisPic2} alt="Paris Pic" />
           </div>
         </div>
       </div>
