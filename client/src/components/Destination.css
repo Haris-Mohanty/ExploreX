@@ -4,6 +4,12 @@
 .tagline{
     font-size: 1.3rem;
 }
+.first-desc{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 4.5rem;
+}
 
 @media screen and (max-width: 555px) {
   .destination {
