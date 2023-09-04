@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import homeImg from "../Assets/12.jpg";
 import Destination from "../components/Destination";
+import Tour from "../components/Tour";
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
         url="/"
       />
       <Destination />
+      <Tour/>
     </>
   );
 };
