@@ -27,25 +27,32 @@ const Footer = () => {
         </div>
         <div className="bottom">
           <div>
-            <h4>Contact Us</h4>
+            <h3>Contact Us</h3>
             <a href="/">Address:City: Bangalore</a>
             <a href="/">Zip code: 560004</a>
             <a href="/">Email: explorex@ac.in</a>
             <a href="/">Phone: 1800 658 547</a>
           </div>
           <div>
-            <h4>Explore With Us</h4>
+            <h3>Explore With Us</h3>
             <a href="/">More Tours</a>
             <a href="/">Blog</a>
-            <a href="/">License</a>
+            <a href="/">Signup</a>
             <a href="/">Status</a>
           </div>
           <div>
-            <h4>Customer Service</h4>
+            <h3>Customer Service</h3>
             <a href="/">FAQs</a>
             <a href="/">Terms & Conditions</a>
             <a href="/">Privacy Policy</a>
             <a href="/">Refund Policy</a>
+          </div>
+          <div>
+            <h3>Others</h3>
+            <a href="/">License</a>
+            <a href="/">Supports</a>
+            <a href="/">Subscribe</a>
+            <a href="/">About Us</a>
           </div>
         </div>
       </div>
