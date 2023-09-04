@@ -38,9 +38,33 @@
   margin-left: -1.2rem;
 }
 
-.bottom a{
-    text-decoration: none;
-    color: #fafafa;
-    padding-bottom: .4rem;
-    font-size: 1rem;
+.bottom a {
+  text-decoration: none;
+  color: #fafafa;
+  padding-bottom: 0.4rem;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 555px) {
+  .footer {
+    padding: 2rem 2rem;
+  }
+  .footer i {
+    margin: 1rem 1rem 0 0;
+  }
+  .bottom{
+    padding: 2rem .9rem 0 0;
+  }
+  .bottom div {
+    width: 50%;
+    padding-left: 2rem;
+  }
+  .bottom h3 {
+    font-size: 1.2rem;
+    /* margin-left: 0.1rem; */
+  }
+
+  .bottom a {
+    font-size: 0.7rem;
+  }
 }

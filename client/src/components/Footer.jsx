@@ -28,7 +28,7 @@ const Footer = () => {
         <div className="bottom">
           <div>
             <h3>Contact Us</h3>
-            <a href="/">Address:City: Bangalore</a>
+            <a href="/">Address: Bangalore</a>
             <a href="/">Zip code: 560004</a>
             <a href="/">Email: explorex@ac.in</a>
             <a href="/">Phone: 1800 658 547</a>
