@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import serviceImg from "../Assets/1.png";
 import Footer from "../components/Footer";
+import Tour from "../components/Tour";
 
 const Service = () => {
   return (
@@ -14,6 +15,7 @@ const Service = () => {
         title="Service"
         btnClass="hide"
       />
+      <Tour />
       <Footer />
     </>
   );
