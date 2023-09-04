@@ -9,7 +9,7 @@ class DestinationData extends Component {
 
   render() {
     return (
-      <div className="first-desc">
+      <div className={this.props.className}>
         <div className="des-text">
           <h3 className="mt-3">{this.props.heading}</h3>
           <p className="font-lato ms-3">{this.props.text}</p>

@@ -30,9 +30,12 @@ img {
 .hero-text h2 {
   font-size: 3.2rem;
   font-weight: 800;
-  background: #fff;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  /* background: #fff; */
+  color: #fff;
+  text-shadow: 1px 1px 2px black, 0 5px 22px rgb(4, 62, 93), 0 0 5px rgb(2, 123, 88);
+
+  /* -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;  */
   /** Add image in text background **/
   /* background-image: url("https://www.color-meanings.com/wp-content/uploads/Black-and-white-paint-swirl-1024x683.jpeg");
   background-size: cover;
