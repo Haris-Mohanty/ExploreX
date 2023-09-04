@@ -21,7 +21,7 @@
   transform: scale(1.3);
 }
 .bottom {
-  padding: 2rem 2rem 0 2rem;
+  padding: 2rem 2rem 1rem 2rem;
   text-align: start;
   display: flex;
   justify-content: space-between;
@@ -34,7 +34,7 @@
 
 .bottom h3 {
   font-size: 1.7rem;
-  padding: 1rem 0.8rem 0;
+  padding: 1rem 0.7rem 0;
   margin-left: -1.2rem;
 }
 
@@ -44,6 +44,15 @@
   padding-bottom: 0.4rem;
   font-size: 1rem;
 }
+.copy {
+  font-size: 1.3rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0 0 0;
+}
 
 @media screen and (max-width: 555px) {
   .footer {
@@ -52,8 +61,8 @@
   .footer i {
     margin: 1rem 1rem 0 0;
   }
-  .bottom{
-    padding: 2rem .9rem 0 0;
+  .bottom {
+    padding: 2rem 0.9rem 0 0;
   }
   .bottom div {
     width: 50%;
@@ -61,10 +70,11 @@
   }
   .bottom h3 {
     font-size: 1.2rem;
-    /* margin-left: 0.1rem; */
   }
-
   .bottom a {
+    font-size: 0.7rem;
+  }
+  .copy {
     font-size: 0.7rem;
   }
 }

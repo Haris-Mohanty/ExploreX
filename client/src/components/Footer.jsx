@@ -55,6 +55,9 @@ const Footer = () => {
             <a href="/">About Us</a>
           </div>
         </div>
+        <div className="copy">
+          Copyright © 2023 with ExploreX. All Rights Reserved.
+        </div>
       </div>
     </>
   );
