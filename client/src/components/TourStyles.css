@@ -38,3 +38,18 @@
   padding: 0.9rem 0 0.2rem 0;
   font-weight: bold;
 }
+
+@media screen and (max-width: 555px) {
+  .tour {
+    margin: 4rem 2rem;
+    color: #2a2a2a;
+  }
+  .tourCard {
+    flex-direction: column;
+  }
+  .t-card {
+    width: 100%;
+    margin-bottom: 1.5rem;
+    
+  }
+}
