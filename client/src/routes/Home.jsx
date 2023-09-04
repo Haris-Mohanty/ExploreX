@@ -4,6 +4,7 @@ import Hero from "../components/Hero";
 import homeImg from "../Assets/12.jpg";
 import Destination from "../components/Destination";
 import Tour from "../components/Tour";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -19,7 +20,8 @@ const Home = () => {
         url="/"
       />
       <Destination />
-      <Tour/>
+      <Tour />
+      <Footer />
     </>
   );
 };
