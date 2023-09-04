@@ -3,7 +3,10 @@
   color: #2a2a2a;
 }
 .tour h1 {
-  font-size: 3rem;
+  font-size: 2.7rem;
+}
+.tagline {
+  font-size: 1.3rem;
 }
 .tourCard {
   margin-top: 3rem;
@@ -44,12 +47,17 @@
     margin: 4rem 2rem;
     color: #2a2a2a;
   }
+  .tour h1 {
+    font-size: 2rem;
+  }
+  .tagline {
+    font-size: 0.9rem;
+  }
   .tourCard {
     flex-direction: column;
   }
   .t-card {
     width: 100%;
     margin-bottom: 1.5rem;
-    
   }
 }
