@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import {  NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { MenuItems } from "./MenuItems";
 import "./Navbar.css";
 
@@ -22,9 +22,8 @@ const Navbar = () => {
             <i className="fas fa-bars" />
           )}
         </div>
-         
 
-        <ul className={isIconClicked ? "nav-menu active" :"nav-menu"}>
+        <ul className={isIconClicked ? "nav-menu active" : "nav-menu"}>
           {MenuItems.map((items, index) => (
             <li key={index}>
               <NavLink to={items.url} className={items.className}>
@@ -32,7 +31,7 @@ const Navbar = () => {
               </NavLink>
             </li>
           ))}
-          <button>Sign Up</button>
+          <NavLink to="/signup" className="signup-btn btn">Sign Up</NavLink>
         </ul>
       </nav>
     </>
