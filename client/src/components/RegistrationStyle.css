@@ -16,3 +16,10 @@
   border-radius: 9px;
   border: 1px solid #2a2a2a;
 }
+.registration-form textarea {
+  height: 5rem;
+  padding: 1 1rem;
+  margin-bottom: 1rem;
+  border-radius: 9px;
+  border: 1px solid #2a2a2a;
+}
