@@ -1,3 +1,18 @@
 .registration-form {
   margin: 4rem 6rem;
+  color: #2a2a2a;
+}
+
+.registration-form form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 2rem;
+}
+.registration-form input {
+  height: 3rem;
+  padding: 0 1rem;
+  margin-bottom: 1rem;
+  border-radius: 9px;
+  border: 1px solid #2a2a2a;
 }

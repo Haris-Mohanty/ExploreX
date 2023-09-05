@@ -20,23 +20,21 @@ const Registration = () => {
               type="email"
               className="form-control"
               id="exampleInputEmail"
-              placeholder="Enter email"
+              placeholder="Enter Email"
             />
           </div>
           <div className="form-group mb-3">
             <input
               type="password"
               className="form-control"
-              id="exampleInputEmail1"
-              placeholder="Enter email"
+              id="exampleInputPassword"
+              placeholder="Enter Password"
             />
           </div>
           <div className="form-group mb-3">
-            <input
-              type="email"
+            <textarea
+              placeholder="Enter your address"
               className="form-control"
-              id="exampleInputEmail1"
-              placeholder="Enter email"
             />
           </div>
           <button type="submit" class="btn btn-primary">
