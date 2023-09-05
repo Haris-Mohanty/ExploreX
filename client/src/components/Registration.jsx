@@ -47,11 +47,3 @@ const Registration = () => {
 };
 
 export default Registration;
-
-{
-  /* <input type="text" placeholder="Write your Name" />
-<input type="email" placeholder="Write your Email" />
-<input type="text" placeholder="Write a Subject" />
-<textarea placeholder="Write a message" rows="4"></textarea>
-<button type="button">Send</button> */
-}
