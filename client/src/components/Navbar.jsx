@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import {  NavLink } from "react-router-dom";
 import { MenuItems } from "./MenuItems";
 import "./Navbar.css";
 
@@ -27,9 +27,9 @@ const Navbar = () => {
         <ul className={isIconClicked ? "nav-menu active" :"nav-menu"}>
           {MenuItems.map((items, index) => (
             <li key={index}>
-              <Link to={items.url} className={items.className}>
+              <NavLink to={items.url} className={items.className}>
                 <i className={items.icon}></i> {items.title}
-              </Link>
+              </NavLink>
             </li>
           ))}
           <button>Sign Up</button>
