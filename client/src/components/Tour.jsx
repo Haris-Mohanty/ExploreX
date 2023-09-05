@@ -18,16 +18,19 @@ const Tour = () => {
             image={Tour1}
             heading="Sydney Sojourns"
             text="Explore Sydney's iconic landmarks, stunning beaches, and vibrant culture on our unforgettable guided tour."
+            button="Book Now"
           />
           <TourData
             image={Tour2}
             heading="Rome Unveiled"
-            text="Discover ancient wonders, Renaissance art, and vibrant culture on our unforgettable Rome tour."
+            text="Discover ancient wonders, Renaissance art, and vibrant culture with us in our unforgettable Rome tour."
+            button="Book Now"
           />
           <TourData
             image={Tour3}
             heading="Abu Dhabi Allure"
             text="Experience the irresistible allure of Abu Dhabi: a blend of opulence, culture, and desert mystique in one unforgettable tour."
+            button="Book Now"
           />
         </div>
       </div>

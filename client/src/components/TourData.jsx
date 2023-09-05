@@ -10,6 +10,7 @@ const TourData = (props) => {
         </div>
         <h4>{props.heading}</h4>
         <p>{props.text}</p>
+        <button className="d-flex float-end">{props.button}</button>
       </div>
     </>
   );

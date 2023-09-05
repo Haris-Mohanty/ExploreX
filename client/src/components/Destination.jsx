@@ -32,6 +32,7 @@ const Destination = () => {
           img1={parisPic1}
           img2={parisPic2}
           className="first-desc"
+          button="Set Your Plan!"
         />
         <DestinationData
           heading="Venice, Italy: The Floating City!"
@@ -39,6 +40,7 @@ const Destination = () => {
           img1={italy1}
           img2={italy2}
           className="first-desc-reverse"
+          button="Set Your Plan!"
         />
         <DestinationData
           heading="Maldives: The Sunny Side of Life!"
@@ -46,6 +48,7 @@ const Destination = () => {
           img1={maldivs1}
           img2={maldivs2}
           className="first-desc"
+          button="Set Your Plan!"
         />
       </div>
     </>
